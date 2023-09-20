@@ -52,11 +52,12 @@ const AddStudent = () => {
 
 
         
-        
+        <div className='buttonmainparent'>
         <div className='buttons'>
         <button onClick={() => Navigate('/students')} className='button1 buttonin'>Cancel</button>
         <button onClick={handleUpdate} className='button2 buttonin'>Submit</button>
       {/* <button onClick={() => Navigate('/students')}>Go Back</button> */}
+      </div>
       </div>
       </>
   )
